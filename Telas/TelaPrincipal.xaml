@@ -1,0 +1,126 @@
+﻿<Page x:Class="TELA.Telas.TelaPrincipal"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TELA.Telas"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TelaPrincipal">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0" Background="#576776" Margin="10 0 0 0" CornerRadius="10"/>
+        <Border Grid.Column="1" Background = "White"/>
+
+
+        <StackPanel>
+
+            <!--Logo-->
+            <StackPanel Grid.Column="0" Margin="0 20 0 0" VerticalAlignment="Top">
+                <Image Source="/Recursos/Imagens/logo.png" Width="100" Margin="0 0 5 0"/>
+            </StackPanel>
+
+            <!--Menu-->
+            <Button Background="Transparent" BorderBrush="Transparent" Margin="0 30 0 0" >
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Recursos/Imagens/casa-icon.png" Width="30" Margin="0 0 0 0"/>
+                    <TextBlock Text="Inicio" Foreground="White" FontSize="15" FontFamily="Comic Sans MS" Margin="5 5 0 0"/>
+                </StackPanel>
+            </Button>
+
+            <Button Background="Transparent" BorderBrush="Transparent" Margin="0 10 0 0" >
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Recursos/Imagens/cursos-icon.png" Width="35" Margin="0 0 0 0"/>
+                    <TextBlock Text="Cursos" Foreground="White" FontSize="15" FontFamily="Comic Sans MS" Margin="5 5 0 0"/>
+                </StackPanel>
+            </Button>
+
+
+            <Button Background="Transparent" BorderBrush="Transparent" Margin="0 0 0 0" >
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Recursos/Imagens/casa-icon.png" Width="30" Margin="0 0 0 0"/>
+                    <TextBlock Text="Escola" Foreground="White" FontSize="15" FontFamily="Comic Sans MS" Margin="5 5 0 0"/>
+                </StackPanel>
+            </Button>
+
+            <Button Background="Transparent" BorderBrush="Transparent" Margin="0 10 0 0" >
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Recursos/Imagens/alunos_icon.png" Width="30" Margin="0 0 0 0"/>
+                    <TextBlock Text="Alunos" Foreground="White" FontSize="15" FontFamily="Comic Sans MS" Margin="5 5 0 0"/>
+                </StackPanel>
+            </Button>
+
+            <Button Background="Transparent" BorderBrush="Transparent" Margin="0 10 0 0" >
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Recursos/Imagens/alunos_icon.png" Width="30" Margin="0 0 0 0"/>
+                    <TextBlock Text="Turmas" Foreground="White" FontSize="15" FontFamily="Comic Sans MS" Margin="5 5 0 0"/>
+                </StackPanel>
+            </Button>
+
+            <Button Background="Transparent" BorderBrush="Transparent" Margin="0 60 0 0" >
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Recursos/Imagens/exit-icon.png" Width="20" Margin="0 0 0 0"/>
+                    <TextBlock Text="Sair" Foreground="White" FontSize="18" FontFamily="Comic Sans MS" Margin=" 10 0 0 0"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+
+
+        <Border Grid.Column="1">
+            <Grid>
+
+
+                <StackPanel>
+
+                    <StackPanel Grid.Column="1" VerticalAlignment="Top">
+                        <Image Source="/Recursos/Imagens/logo.png" Width="120"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1" VerticalAlignment="center" Orientation="Horizontal">
+                        <Button Width="135" Height="120" Background="Transparent" BorderBrush="Gray" Margin=" 70 10 0 0">
+                            <StackPanel Orientation="Vertical">
+                                <TextBlock Text="Gerenciar Turmas" FontSize="15" FontFamily="Comic Sans MS" />
+                                <Image Source="/Recursos/Imagens/pessoaPreto-icon.png" Height="50" Margin="0 10 0 0"/>
+                            </StackPanel>
+                        </Button>
+
+                        <Button HorizontalAlignment="Left" Width="135" Height="120" Background="Transparent" BorderBrush="Gray" Margin=" 50 10 0 0">
+                            <StackPanel Orientation="Vertical">
+                                <TextBlock Text="Gerenciar Alunos" FontSize="15" FontFamily="Comic Sans MS"/>
+                                <Image Source="/Recursos/Imagens/pessoaPreto-icon.png" Height="50" Margin="0 10 0 0"/>
+                            </StackPanel>
+                        </Button>
+
+                        <Button HorizontalAlignment="Left" Width="135" Height="120" Background="Transparent" BorderBrush="Gray" Margin=" 50 10 0 0">
+                            <StackPanel Orientation="Vertical">
+                                <TextBlock Text="Gerenciar Cursos"  FontSize="15" FontFamily="Comic Sans MS"/>
+                                <Image Source="/Recursos/Imagens/cursosPreto-icon.png" Width="50" Height="50" Margin="0 10 0 0"/>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+
+                    <StackPanel HorizontalAlignment="Left" Margin="60 20 0 0">
+                        <Image Source="/Recursos/Imagens/calendario.png" Width="220"/>
+                    </StackPanel>
+                    
+
+
+
+
+                </StackPanel>
+
+
+
+
+            </Grid>
+        </Border>
+
+
+
+    </Grid>
+</Page>
