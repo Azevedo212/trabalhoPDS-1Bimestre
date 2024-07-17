@@ -14,7 +14,7 @@
             <ColumnDefinition Width="4*"/>
         </Grid.ColumnDefinitions>
 
-        <Border Grid.Column="0" Background="#576776" Margin="10 0 0 0" CornerRadius="10"/>
+        <Border Grid.Column="0" Background="#576776" CornerRadius="0 10 10 0"/>
         <Border Grid.Column="1" Background = "White"/>
 
 

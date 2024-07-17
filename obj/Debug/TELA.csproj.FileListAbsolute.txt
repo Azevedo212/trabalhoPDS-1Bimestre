@@ -40,3 +40,11 @@ D:\IFRO\3°Ano\PDS\tela-cacau-show\obj\Debug\TELA_MarkupCompile.cache
 D:\IFRO\3°Ano\PDS\tela-cacau-show\obj\Debug\TELA_MarkupCompile.lref
 D:\IFRO\3°Ano\PDS\tela-cacau-show\obj\Debug\TELA.exe
 D:\IFRO\3°Ano\PDS\tela-cacau-show\obj\Debug\TELA.pdb
+D:\IFRO\3°Ano\trabalhoPDS-1Bimestre\obj\Debug\TELA.csproj.AssemblyReference.cache
+D:\IFRO\3°Ano\trabalhoPDS-1Bimestre\obj\Debug\Telas\TelaLogin.g.cs
+D:\IFRO\3°Ano\trabalhoPDS-1Bimestre\obj\Debug\Telas\TelaPrincipal.g.cs
+D:\IFRO\3°Ano\trabalhoPDS-1Bimestre\obj\Debug\App.g.cs
+D:\IFRO\3°Ano\trabalhoPDS-1Bimestre\obj\Debug\TELA_MarkupCompile.cache
+D:\IFRO\3°Ano\trabalhoPDS-1Bimestre\obj\Debug\TELA_MarkupCompile.lref
+D:\IFRO\3°Ano\trabalhoPDS-1Bimestre\obj\Debug\TELA.exe
+D:\IFRO\3°Ano\trabalhoPDS-1Bimestre\obj\Debug\TELA.pdb
